@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Forms Intro</title>
+	
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="Forms Intro.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div id="form-area" class="col-md-4 col-md-offset-4">
+				<form action="url" method="post">
+					
+					<div class="form-group">
+						<label for="fullName">Name: </label>
+						<input type="text" class="form-control" id="fullName" name="fullName" placeholder="Jane M Doe" />
+					</div>
+					
+					<div class="form-group">
+						<label for="email">Email: </label>
+						<input type="text" class="form-control" id="email" name="email" placeholder="jane.doe@example.com" />
+					</div>
+					
+					<div class="form-group">
+						<label for="username">Username: </label>
+						<input type="text" class="form-control" id="username" name="username" placeholder="jane.doe.toe4" />
+					</div>
+					
+					<div class="checkbox">
+						<label>
+							<input type="checkbox"> I agree to the Terms and Condition.
+						</label>
+					</div>
+					
+					<div class="form-group">
+						<textarea name="comments_Email" id="comments_Email" cols="47" rows="10"></textarea>
+					</div>
+					
+					<div class="form-group">
+						
+						<select class="form-control">
+							<option value="volvo">Volvo</option>
+							<option value="saab">Saab</option>
+							<option value="mercedes">Mercedes</option>
+							<option value="audi">Audi</option>
+						</select>
+						
+					</div>
+					
+					<button type="submit" class="btn btn-alert">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
